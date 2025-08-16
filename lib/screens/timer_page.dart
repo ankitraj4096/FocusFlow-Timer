@@ -105,7 +105,7 @@ class _TimerPageState extends State<TimerPage> with TickerProviderStateMixin {
       context: context,
       barrierDismissible: false,
       builder: (context) => AlertDialog(
-        title: Text('Welcome to Productivity Timer!'),
+        title: Text('Welcome to Focus Flow!'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
